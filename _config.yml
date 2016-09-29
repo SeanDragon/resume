@@ -1,0 +1,6 @@
+permalink: /:title
+
+title: SeanDragon's Blog
+url: https://seandragon.github.io
+feed: /atom.xml
+author_info: <a href="https://seandragon.github.io/">SeanDragon</a>
