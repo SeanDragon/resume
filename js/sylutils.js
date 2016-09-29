@@ -1,4 +1,5 @@
 var space = "　";
+var count = 0;
 /**
  * 验证输入
  * @param $obj jq对象
@@ -73,7 +74,6 @@ function setRemainTime() {
 function getUrlParam(string) {
     var obj = new Object();
     if (string == undefined || string === "") {
-        console.log("sylutils Line 102 :: 传进来的路径是空的");
         string = window.location.href;
     }
     if (string.indexOf("?") != -1) {
