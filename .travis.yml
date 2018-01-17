@@ -1,0 +1,6 @@
+language: js
+
+sudo: false
+
+install:
+  - ls -alh
